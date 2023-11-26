@@ -6,4 +6,6 @@
 !yabai/**
 !skhd/
 !skhd/**
-
+!git/
+!git/config
+!git/config-panther

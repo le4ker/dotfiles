@@ -1,0 +1,13 @@
+[user]
+	name = Panos Sakkos
+	email = panos.sakkos@gmail.com
+
+[pull]
+	rebase = true
+
+[push]
+	default = current
+	autoSetupRemote = true
+
+[includeIf "gitdir:~/dev/panther/**"]
+	path = ./config-panther
