@@ -9,3 +9,5 @@
 !git/
 !git/config
 !git/config-panther
+!vim/
+!vim/**
