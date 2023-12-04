@@ -2,9 +2,12 @@
 
 Config files for:
 
-- [Yabai](https://github.com/koekeishiya/yabai)
+- [git](https://git-scm.com)
+- [Oh My Zsh](https://ohmyz.sh)
 - [skhd](https://github.com/koekeishiya/skhd)
-- [git](https://git-scm.com/)
-- [vim](https://www.vim.org/)
+- [vim](https://www.vim.org)
+- [yabai](https://github.com/koekeishiya/yabai)
 
 Nvim Configuration is tracked [here](https://github.com/le4ker/nvim-config)
+
+.vimrc and .zshrc must be linked from the home directory.
