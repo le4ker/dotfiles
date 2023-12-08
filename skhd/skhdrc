@@ -10,5 +10,4 @@ shift + alt - y : yabai -m space --mirror y-axis
 shift + alt - x : yabai -m space --mirror x-axis
 
 # Window commands
-shift + alt - f : yabai -m window --toggle float --grid 4:4:1:1:2:2
-shift + alt - z : yabai -m window --toggle zoom-fullscreen
+shift + alt - f : yabai -m window --toggle zoom-fullscreen
