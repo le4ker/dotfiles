@@ -9,10 +9,11 @@ plugins=( \
 
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
 
-export EDITOR='vim'
-
 # GNU grep
 PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
+
+export EDITOR='vim'
+export HISTSIZE=100_000
 
 source ~/.env-secrets
 source ~/.panther-aliases
