@@ -2,6 +2,8 @@
 **/.DS_Store
 !.gitignore
 !README.md
+!fonts/
+!fonts/**
 !yabai/
 !yabai/**
 !skhd/
