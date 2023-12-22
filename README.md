@@ -5,7 +5,7 @@ Config files for:
 - [git](https://git-scm.com)
 - zsh
 - [skhd](https://github.com/koekeishiya/skhd)
-- [spacebar](https://github.com/cmacrae/spacebar)
+- [sketchybar](https://github.com/felixkratz/sketchybar)
 - [vim](https://www.vim.org)
 - [yabai](https://github.com/koekeishiya/yabai)
 
