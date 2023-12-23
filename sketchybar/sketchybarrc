@@ -3,7 +3,7 @@
 PLUGIN_DIR="$CONFIG_DIR/plugins"
 
 bar=(
-    height=30
+    height=24
     padding_left=20
     padding_right=20
     color=0xff2d353b
@@ -42,10 +42,10 @@ sketchybar --bar "${bar[@]}" \
     --add item clock right \
     --set clock "${clock[@]}" \
     --add item volume right \
-    --set volume "${volume[@]}"\
+    --set volume "${volume[@]}" \
     --subscribe volume volume_change \
     --add item battery right \
-    --set battery "${battery[@]}" \
+    --set battery "${battery[@]}"\
     --subscribe battery system_woke power_source_change
 
 SPACE_ICONS=("I" "II" "III" "IV" "V" "VI")
