@@ -15,5 +15,7 @@
 !git/config-panther
 !vim/
 !vim/**
+!vimium/
+!vimium/**
 !zsh/
 !zsh/**
