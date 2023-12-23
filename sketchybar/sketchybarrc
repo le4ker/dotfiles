@@ -5,9 +5,8 @@ PLUGIN_DIR="$CONFIG_DIR/plugins"
 sketchybar --bar height=30 \
     padding_left=20 \
     padding_right=20 \
-    color=0xff2d353b
-
-sketchybar --default icon.font="Hack Nerd Font:Bold:16.0" \
+    color=0xff2d353b \
+    --default icon.font="Hack Nerd Font:Bold:16.0" \
     icon.color=0xff829191 \
     label.font="Hack Nerd Font:Bold:16.0" \
     label.color=0xff829191 \
@@ -16,7 +15,18 @@ sketchybar --default icon.font="Hack Nerd Font:Bold:16.0" \
     label.padding_left=4 \
     label.padding_right=4 \
     icon.padding_left=4 \
-    icon.padding_right=4
+    icon.padding_right=4 \
+    --add item clock right \
+    --set clock update_freq=10 \
+    icon=  \
+    script="$PLUGIN_DIR/clock.sh" \
+    --add item volume right \
+    --set volume  script="$PLUGIN_DIR/volume.sh" \
+    --subscribe volume volume_change \
+    --add item battery right \
+    --set battery script="$PLUGIN_DIR/battery.sh" \
+    update_freq=120 \
+    --subscribe battery system_woke power_source_change
 
 SPACE_ICONS=("I" "II" "III" "IV" "V" "VI")
 
@@ -33,17 +43,5 @@ do
         label.drawing=off \
         script="$PLUGIN_DIR/space.sh"
 done
-
-sketchybar --add item clock right \
-    --set clock update_freq=10 \
-    icon=  \
-    script="$PLUGIN_DIR/clock.sh" \
-    --add item volume right \
-    --set volume  script="$PLUGIN_DIR/volume.sh" \
-    --subscribe volume volume_change \
-    --add item battery right \
-    --set battery script="$PLUGIN_DIR/battery.sh" \
-    update_freq=120 \
-    --subscribe battery system_woke power_source_change
 
 sketchybar --update
