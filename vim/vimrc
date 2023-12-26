@@ -2,3 +2,5 @@ set relativenumber
 set incsearch
 set hlsearch
 set ignorecase
+set list
+set listchars=tab:→\ ,lead:·,trail:·,nbsp:+,eol:¬
