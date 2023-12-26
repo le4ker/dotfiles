@@ -1,6 +1,15 @@
+# line numbers
 set relativenumber
+
+# search
 set incsearch
 set hlsearch
 set ignorecase
+
+# invisible characters
 set list
 set listchars=tab:→\ ,lead:·,trail:·,nbsp:+,eol:¬
+
+# indent
+set expandtab
+set tabstop=2
