@@ -12,6 +12,10 @@ source $HOME/.oh-my-zsh/oh-my-zsh.sh
 # GNU grep
 PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
 
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init --no-rehash -)"
+
 export EDITOR='vim'
 export HISTSIZE=100_000
 
