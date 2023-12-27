@@ -4,6 +4,8 @@ set nocompatible
 " line numbers
 set relativenumber
 
+set nowrap
+
 " search
 set incsearch
 set hlsearch
@@ -16,3 +18,4 @@ set listchars=tab:→\ ,lead:·,trail:·,nbsp:+,eol:¬
 " indent
 set expandtab
 set tabstop=2
+set shiftwidth=2
