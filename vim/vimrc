@@ -1,15 +1,18 @@
-# line numbers
+" disable vi compatibility
+set nocompatible
+
+" line numbers
 set relativenumber
 
-# search
+" search
 set incsearch
 set hlsearch
 set ignorecase
 
-# invisible characters
+" invisible characters
 set list
 set listchars=tab:→\ ,lead:·,trail:·,nbsp:+,eol:¬
 
-# indent
+" indent
 set expandtab
 set tabstop=2
