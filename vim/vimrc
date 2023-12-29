@@ -22,3 +22,6 @@ set listchars=tab:→\ ,lead:·,trail:·,nbsp:+,eol:¬
 set expandtab
 set tabstop=2
 set shiftwidth=2
+
+" mappings
+inoremap jk <esc>
