@@ -24,4 +24,6 @@ set tabstop=2
 set shiftwidth=2
 
 " mappings
+let mapleader = " "
+nnoremap <leader>s :w<cr>
 inoremap jk <esc>
