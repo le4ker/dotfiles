@@ -26,4 +26,5 @@ set shiftwidth=2
 " mappings
 let mapleader = " "
 nnoremap <leader>s :w<cr>
+nnoremap <S-u> <C-r>
 inoremap jk <esc>
