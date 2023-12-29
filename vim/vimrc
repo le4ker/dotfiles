@@ -1,7 +1,10 @@
 " disable vi compatibility
 set nocompatible
 
+syntax on
+
 " line numbers
+set number
 set relativenumber
 
 set nowrap
