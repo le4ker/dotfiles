@@ -20,3 +20,4 @@ yabai -m rule --add app="gitk$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^Okta Verify$" manage=off
 yabai -m rule --add app="^Archive Utility$" manage=off
+yabai -m rule --add app="^QMK Toolbox$" manage=off
