@@ -12,6 +12,8 @@ call plug#begin()
 Plug 'sainnhe/everforest'
 call plug#end()
 
+set noswapfile
+
 " line numbers
 set number
 set relativenumber
