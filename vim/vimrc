@@ -38,6 +38,8 @@ nnoremap <leader>s :w<cr>
 nnoremap <S-u> <C-r>
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
+nnoremap <C-f> <C-f>zz
+nnoremap <C-b> <C-b>zz
 
 inoremap jk <esc>
 
