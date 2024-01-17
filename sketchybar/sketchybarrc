@@ -55,7 +55,7 @@ sketchybar --bar "${bar[@]}" \
     --add item focus right \
     --set focus "${focus[@]}"
 
-SPACE_ICONS=("I" "II" "III" "IV" "V" "VI")
+SPACE_ICONS=("I" "II" "III" "IV" "V" )
 
 for i in "${!SPACE_ICONS[@]}"
 do
