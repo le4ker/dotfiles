@@ -5,6 +5,7 @@ plugins=( \
         zsh-autosuggestions \
         git \
         autojump \
+        docker-compose \
     )
 
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
