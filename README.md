@@ -2,7 +2,7 @@
 
 Config files for:
 
-- [git](https://git-scm.com)
+- git
 - zsh
 - [skhd](https://github.com/koekeishiya/skhd)
 - [sketchybar](https://github.com/felixkratz/sketchybar)
@@ -10,9 +10,9 @@ Config files for:
 - [vimium](https://github.com/philc/vimium)
 - [yabai](https://github.com/koekeishiya/yabai)
 
-Nvim Configuration is tracked [here](https://github.com/le4ker/nvim-config).
+Nvim Configuration is tracked [here](https://github.com/le4ker/NvMegaChad).
 
-.vimrc and .zshrc must be linked from the home directory:
+`.vimrc` and `.zshrc` must be linked from the home directory:
 
 ```bash
 ln -s ~/.config/vim/vimrc ~/.vimrc
