@@ -1,12 +1,12 @@
 # Oh My Zsh
 ZSH_THEME="gnzh"
 
-plugins=( \
-        zsh-autosuggestions \
-        git \
-        autojump \
-        docker-compose \
-    )
+plugins=(
+	zsh-autosuggestions
+	git
+	autojump
+	docker-compose
+)
 
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
 
@@ -19,6 +19,8 @@ eval "$(rbenv init --no-rehash -)"
 
 export EDITOR='vim'
 export HISTSIZE=100_000
+
+alias nv="nvim"
 
 source ~/.env-secrets
 source ~/.panther-aliases
