@@ -1,5 +1,5 @@
 {
-  "keyMappings": "map h previousTab\nmap l nextTab",
+  "keyMappings": "map h previousTab\nmap l nextTab\nmap [ goBack\nmap ] goForward",
   "linkHintCharacters": "asdfghjkl",
   "scrollStepSize": 250,
   "searchEngines": "y: https://www.youtube.com/results?search_query=%s Youtube\ng: https://www.google.gr/search?q=%s Google\ngm: https://www.google.com/maps?q=%s Google maps\nw: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia",
