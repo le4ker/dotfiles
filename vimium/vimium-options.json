@@ -1,5 +1,5 @@
 {
-  "keyMappings": "map h previousTab\nmap l nextTab\nmap j scrollPageDown\nmap k scrollPageUp\nmap [ goBack\nmap ] goForward",
+  "keyMappings": "map h previousTab\nmap l nextTab\nmap [ goBack\nmap ] goForward",
   "linkHintCharacters": "asdfghjkl",
   "scrollStepSize": 250,
   "searchEngines": "",
