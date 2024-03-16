@@ -28,13 +28,13 @@ clock=(
     script="$PLUGIN_DIR/clock.sh"
 )
 
-volume=(
-    script="$PLUGIN_DIR/volume.sh"
-)
-
 battery=(
     update_freq=120
     script="$PLUGIN_DIR/battery.sh"
+)
+
+volume=(
+    script="$PLUGIN_DIR/volume.sh"
 )
 
 focus=(
@@ -46,12 +46,12 @@ sketchybar --bar "${bar[@]}" \
     --default "${default[@]}" \
     --add item clock right \
     --set clock "${clock[@]}" \
-    --add item volume right \
-    --set volume "${volume[@]}" \
-    --subscribe volume volume_change \
     --add item battery right \
     --set battery "${battery[@]}"\
     --subscribe battery system_woke power_source_change \
+    --add item volume right \
+    --set volume "${volume[@]}" \
+    --subscribe volume volume_change \
     --add item focus right \
     --set focus "${focus[@]}"
 
