@@ -12,7 +12,8 @@ Config files for:
 
 Nvim Configuration is tracked [here](https://github.com/le4ker/NvMegaChad).
 
-`.vimrc` and `.zshrc` must be linked from the home directory:
+`.vimrc`, `.zshrc` and `.fonts` directory must be linked from the home
+directory:
 
 ```bash
 ln -s ~/.config/vim/vimrc ~/.vimrc
