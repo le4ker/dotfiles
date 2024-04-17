@@ -4,8 +4,6 @@
 !LICENSE.txt
 !README.md
 
-!fonts/
-!fonts/**
 !git/
 !git/config
 !git/config-panther
