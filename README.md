@@ -8,7 +8,6 @@ Config files for:
 - [skhd](https://github.com/koekeishiya/skhd)
 - [sketchybar](https://github.com/felixkratz/sketchybar)
 - [vim](https://www.vim.org)
-- [vimium](https://github.com/philc/vimium)
 - [yabai](https://github.com/koekeishiya/yabai)
 
 Nvim Configuration is tracked [here](https://github.com/le4ker/NvMegaChad).
