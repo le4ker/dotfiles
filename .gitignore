@@ -3,7 +3,7 @@
 !.gitignore
 !LICENSE.txt
 !README.md
-
+!Makefile
 !git/
 !git/config
 !git/config-panther
