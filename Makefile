@@ -1,4 +1,7 @@
 install:
+	# GNU grep
+	brew install grep
+	# git
 	brew install git
 	# kitty
 	brew install --cask kitty
