@@ -10,16 +10,10 @@ Config files for:
 - [vim](https://www.vim.org)
 - [yabai](https://github.com/koekeishiya/yabai)
 
-Nvim Configuration is tracked [here](https://github.com/le4ker/NvMegaChad).
+Nevim configuration is tracked [here](https://github.com/le4ker/NvMegaChad).
 
-`.vimrc` and `.zshrc` must be linked from the home directory:
+To install the required dependencies, run:
 
 ```bash
-ln -s ~/.config/vim/vimrc ~/.vimrc
-ln -s ~/.config/zsh/zshrc ~/.zshrc
+make install
 ```
-
-## Dependencies
-
-- [Oh My Zsh](https://ohmyz.sh)
-- [GNU grep](https://www.gnu.org/software/grep/)
