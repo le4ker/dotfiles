@@ -15,12 +15,8 @@ default=(
     label.font="Hack Nerd Font:Bold:16.0"
     label.color=0xff829191
     update_freq=1
-    padding_left=2
-    padding_right=2
-    label.padding_left=4
-    label.padding_right=0
-    icon.padding_left=2
-    icon.padding_right=4
+    label.padding_right=10
+    icon.padding_right=6
 )
 
 clock=(
@@ -48,6 +44,8 @@ sketchybar --bar "${bar[@]}" \
     --default "${default[@]}" \
     --add item clock right \
     --set clock "${clock[@]}" \
+    --add item input right \
+    --set input "${input[@]}" \
     --add item battery right \
     --set battery "${battery[@]}"\
     --subscribe battery system_woke power_source_change \
@@ -55,9 +53,7 @@ sketchybar --bar "${bar[@]}" \
     --set volume "${volume[@]}" \
     --subscribe volume volume_change \
     --add item focus right \
-    --set focus "${focus[@]}" \
-    --add item input right \
-    --set input "${input[@]}"
+    --set focus "${focus[@]}"
 
 SPACE_ICONS=("I" "II" "III" "IV" "V" )
 
@@ -72,6 +68,7 @@ do
         background.height=22 \
         background.drawing=off \
         label.drawing=off \
+        icon.padding_left=5 \
         script="$PLUGIN_DIR/space.sh"
 done
 
