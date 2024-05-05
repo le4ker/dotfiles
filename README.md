@@ -1,6 +1,6 @@
 # Dotfiles
 
-Config files for:
+macOS config files for:
 
 - git
 - zsh
