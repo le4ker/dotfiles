@@ -17,5 +17,4 @@ install:
 	brew install koekeishiya/formulae/yabai
 	yabai --start-service
 	# setup symbolic links
-	ln -s ~/.config/vim/vimrc ~/.vimrc
 	ln -s ~/.config/zsh/zshrc ~/.zshrc
