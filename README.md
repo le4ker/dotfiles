@@ -10,7 +10,7 @@ Config files for:
 - [vim](https://www.vim.org)
 - [yabai](https://github.com/koekeishiya/yabai)
 
-Nevim configuration is tracked [here](https://github.com/le4ker/NvMegaChad).
+Neovim configuration is tracked [here](https://github.com/le4ker/NvMegaChad).
 
 To install the required dependencies, run:
 
