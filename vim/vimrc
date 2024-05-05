@@ -11,7 +11,9 @@ call plug#begin()
 Plug 'sainnhe/everforest'
 call plug#end()
 
-set noswapfile
+" theme
+syntax on
+colorscheme everforest
 
 " line numbers
 set number
@@ -19,10 +21,10 @@ set relativenumber
 
 set nowrap
 
-" search
-set incsearch
-set hlsearch
-set ignorecase
+" cursor
+let &t_SI.="\e[5 q" "SI = INSERT mode
+let &t_SR.="\e[4 q" "SR = REPLACE mode
+let &t_EI.="\e[1 q" "EI = NORMAL mode (ELSE)
 
 " invisible characters
 set list
@@ -33,6 +35,14 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
+" search
+set incsearch
+set hlsearch
+set ignorecase
+
+" no swap file
+set noswapfile
+
 " mappings
 let mapleader = " "
 nnoremap <leader>s :w<cr>
@@ -41,8 +51,4 @@ nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 nnoremap <C-f> <C-f>zz
 nnoremap <C-b> <C-b>zz
-
 inoremap jk <esc>
-
-syntax on
-colorscheme everforest
