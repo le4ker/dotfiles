@@ -1,4 +1,6 @@
 install:
+	# autojump
+	brew install autojump
 	# GNU grep
 	brew install grep
 	# git
