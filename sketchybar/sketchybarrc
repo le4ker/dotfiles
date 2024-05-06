@@ -4,8 +4,8 @@ PLUGIN_DIR="$CONFIG_DIR/plugins"
 
 bar=(
     height=30
-    padding_left=20
-    padding_right=20
+    padding_left=10
+    padding_right=0
     color=0xff2d353b
 )
 
