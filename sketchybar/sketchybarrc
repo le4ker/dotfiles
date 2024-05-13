@@ -68,7 +68,7 @@ do
         background.height=22 \
         background.drawing=off \
         label.drawing=off \
-        icon.padding_left=5 \
+        icon.padding_left=6 \
         script="$PLUGIN_DIR/space.sh"
 done
 
