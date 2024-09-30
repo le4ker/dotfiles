@@ -1,2 +1,6 @@
 [user]
 	email = panos.sakkos@panther.com
+	signingkey = 9723A495456FA370
+
+[commit]
+	gpgsign = true
