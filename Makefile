@@ -18,5 +18,6 @@ install:
 	# yabai
 	brew install koekeishiya/formulae/yabai
 	yabai --start-service
-	# setup symbolic links
+	# replace .zsrhc
+	rm ~/.zshrc
 	ln -s ~/.config/zsh/zshrc ~/.zshrc
