@@ -20,4 +20,6 @@ install:
 	yabai --start-service
 	# replace .zsrhc
 	rm ~/.zshrc
+	# install zsh-autosuggestions plugin
+	git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 	ln -s ~/.config/zsh/zshrc ~/.zshrc
