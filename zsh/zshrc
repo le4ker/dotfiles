@@ -21,7 +21,6 @@ eval "$(rbenv init --no-rehash -)"
 export EDITOR='vim'
 export HISTSIZE=100_000
 
-alias nv="nvim"
 alias ssh="kitten ssh"
 
 source ~/.env-secrets
