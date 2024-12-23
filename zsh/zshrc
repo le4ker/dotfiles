@@ -2,11 +2,11 @@
 ZSH_THEME="gnzh"
 
 plugins=(
-	zsh-autosuggestions
-	autojump
-	sudo
-	git
-	docker-compose
+  zsh-autosuggestions
+  autojump
+  sudo
+  git
+  docker-compose
 )
 
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
@@ -26,3 +26,4 @@ alias ssh="kitten ssh"
 
 source ~/.env-secrets
 source ~/.panther-aliases
+export PATH="$HOME/.local/bin:$PATH"
