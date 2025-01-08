@@ -22,3 +22,5 @@ yabai -m rule --add app="^Archive Utility$" manage=off
 yabai -m rule --add app="^QMK Toolbox$" manage=off
 yabai -m rule --add app="^1Password$" manage=off
 yabai -m rule --add app="^UTM$" manage=off
+
+yabai -m signal --add event=system_woke action="sh -c 'sleep 1; /opt/homebrew/bin/sketchybar --reload'"
