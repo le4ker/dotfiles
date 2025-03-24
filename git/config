@@ -6,8 +6,35 @@
 	rebase = true
 
 [push]
-	default = current
+	default = simple
 	autoSetupRemote = true
+	followTags = true
+
+[init]
+        defaultBranch = main
+
+[fetch]
+	prune = true
+	pruneTags = true
+	all = true
+
+[diff]
+        algorithm = histogram
+        colorMoved = plain
+        mnemonicPrefix = true
+        renames = true
+
+[column]
+	ui = auto
+
+[branch]
+    sort = -committerdate
+
+[tag]
+        sort = version:refname
+
+[help]
+        autocorrect = prompt
 
 [includeIf "gitdir:~/dev/panther/**"]
 	path = ./config-panther
