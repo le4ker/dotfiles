@@ -16,6 +16,8 @@
 !sketchybar/
 !sketchybar/**
 !vim/
+!vimium/
+!vimium/**
 !yabai/
 !yabai/**
 !zsh/

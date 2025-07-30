@@ -1,0 +1,22 @@
+{
+  "keyMappings": "map h previousTab\nmap l nextTab\nmap [ goBack\nmap ] goForward\nmap <c-d> scrollPageDown\nmap <c-u> scrollPageUp\nmap u restoreTab",
+  "linkHintCharacters": "asdfghjkl",
+  "scrollStepSize": 150,
+  "grabBackFocus": true,
+  "searchEngines": "",
+  "settingsVersion": "2.3",
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https?://docs.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://panther-labs.atlassian.net/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://keyboard-test.space/*"
+    }
+  ]
+}

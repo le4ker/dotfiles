@@ -10,6 +10,8 @@ macOS config files for:
 - [vim](https://www.vim.org)
 - [yabai](https://github.com/koekeishiya/yabai)
 
+And backup configuration file for [Vimium](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+
 Neovim configuration is tracked [here](https://github.com/le4ker/NvMegaChad).
 
 To install the required dependencies, run:
