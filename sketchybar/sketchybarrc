@@ -32,6 +32,12 @@ volume=(
     script="$PLUGIN_DIR/volume.sh"
 )
 
+wifi=(
+    update_freq=5
+    script="$PLUGIN_DIR/wifi.sh"
+    icon.padding_right=0
+)
+
 focus=(
     script="$PLUGIN_DIR/focus.sh"
 )
@@ -44,14 +50,16 @@ sketchybar --bar "${bar[@]}" \
     --default "${default[@]}" \
     --add item clock right \
     --set clock "${clock[@]}" \
+    --add item wifi right \
+    --set wifi "${wifi[@]}" \
     --add item input right \
     --set input "${input[@]}" \
-    --add item battery right \
-    --set battery "${battery[@]}"\
-    --subscribe battery system_woke power_source_change \
     --add item volume right \
     --set volume "${volume[@]}" \
     --subscribe volume volume_change \
+    --add item battery right \
+    --set battery "${battery[@]}"\
+    --subscribe battery system_woke power_source_change \
     --add item focus right \
     --set focus "${focus[@]}"
 
