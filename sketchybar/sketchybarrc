@@ -46,6 +46,11 @@ input=(
     script="$PLUGIN_DIR/input.sh"
 )
 
+airpods=(
+    update_freq=5
+    script="$PLUGIN_DIR/airpods.sh"
+)
+
 sketchybar --bar "${bar[@]}" \
     --default "${default[@]}" \
     --add item clock right \
@@ -60,6 +65,8 @@ sketchybar --bar "${bar[@]}" \
     --add item battery right \
     --set battery "${battery[@]}"\
     --subscribe battery system_woke power_source_change \
+    --add item airpods right \
+    --set airpods "${airpods[@]}" \
     --add item focus right \
     --set focus "${focus[@]}"
 
