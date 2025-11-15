@@ -38,3 +38,6 @@
 
 [includeIf "gitdir:~/dev/panther/**"]
 	path = ./config-panther
+
+[core]
+	excludesfile = /Users/panos/.gitignore_global
