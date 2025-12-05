@@ -1,10 +1,10 @@
 {
-  "keyMappings": "map h previousTab\nmap l nextTab\nmap [ goBack\nmap ] goForward\nmap <c-d> scrollPageDown\nmap <c-u> scrollPageUp\nmap u restoreTab",
+  "keyMappings": "map h previousTab\nmap l nextTab\nmap [ goBack\nmap ] goForward\nmap <c-d> scrollPageDown\nmap <c-u> scrollPageUp\nmap <c-f> scrollFullPageDown\nmap <c-b> scrollFullPageUp\nmap u restoreTab\nmap x removeTab\nmap b createTab",
   "linkHintCharacters": "asdfghjkl",
   "scrollStepSize": 150,
   "grabBackFocus": true,
   "searchEngines": "",
-  "settingsVersion": "2.3",
+  "settingsVersion": "2.3.1",
   "exclusionRules": [
     {
       "passKeys": "",
