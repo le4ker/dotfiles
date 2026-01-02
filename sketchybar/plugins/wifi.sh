@@ -88,21 +88,21 @@ fi
 
 # Set icon based on signal strength
 case $PERCENTAGE in
-  100 | 80)
-    ICON="󰤨"
-    ;;
-  60)
-    ICON="󰤥"
-    ;;
-  40)
-    ICON="󰤢"
-    ;;
-  20)
-    ICON="󰤟"
-    ;;
-  *)
-    ICON="󰤯"
-    ;;
+100 | 80)
+  ICON="󰤨"
+  ;;
+60)
+  ICON="󰤥"
+  ;;
+40)
+  ICON="󰤢"
+  ;;
+20)
+  ICON="󰤟"
+  ;;
+*)
+  ICON="󰤯"
+  ;;
 esac
 
 sketchybar --set $NAME icon="$ICON" label=""
