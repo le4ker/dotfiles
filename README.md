@@ -1,5 +1,14 @@
 # Dotfiles
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=flat&logo=zsh&logoColor=white)
+![Homebrew](https://img.shields.io/badge/Homebrew-FBB040?style=flat&logo=homebrew&logoColor=black)
+![Kitty](https://img.shields.io/badge/Kitty-000000?style=flat&logo=gnometerminal&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat&logo=neovim&logoColor=white)
+![Vim](https://img.shields.io/badge/Vim-019733?style=flat&logo=vim&logoColor=white)
+
 Personal macOS configuration files for a keyboard-driven development environment.
 
 ## What's Included
