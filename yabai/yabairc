@@ -12,8 +12,6 @@ yabai -m config external_bar main:32:0
 
 yabai -m config mouse_follows_focus on
 
-yabai -m mouse_drop_action swap
-
 yabai -m rule --add app="^Finder$" manage=off
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
