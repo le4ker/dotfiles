@@ -50,6 +50,7 @@ set updatetime=250
 " mappings
 let mapleader = " "
 nnoremap <leader>s :w<cr>
+nnoremap <leader>q :q<cr>
 nnoremap <S-u> <C-r>
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
