@@ -19,7 +19,11 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init --no-rehash -)"
 
 export EDITOR='vim'
-export HISTSIZE=100_000
+export HISTFILE=~/.zsh_history
+export HISTSIZE=100000
+export SAVEHIST=$HISTSIZE
+setopt HIST_IGNORE_DUPS
+setopt SHARE_HISTORY
 
 alias ssh="kitten ssh"
 
