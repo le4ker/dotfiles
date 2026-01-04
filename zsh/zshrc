@@ -24,6 +24,8 @@ export HISTSIZE=100000
 export SAVEHIST=$HISTSIZE
 setopt HIST_IGNORE_DUPS
 setopt SHARE_HISTORY
+setopt AUTO_CD
+setopt CORRECT
 
 alias ssh="kitten ssh"
 
