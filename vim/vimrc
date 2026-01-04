@@ -45,6 +45,7 @@ set ignorecase
 
 " no swap file
 set noswapfile
+set updatetime=250
 
 " mappings
 let mapleader = " "
