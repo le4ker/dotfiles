@@ -1,6 +1,13 @@
 [user]
 	email = panos.sakkos@panther.com
 	signingkey = 9723A495456FA370
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFpATcDmljG7qeMipX0s6jOUPzhQ6MjVw8k7ZsRShGIr
+
+[gpg]
+	format = ssh
+
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
 
 [commit]
 	gpgsign = true
