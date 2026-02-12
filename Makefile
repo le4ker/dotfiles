@@ -9,19 +9,19 @@ update: brew-update
 
 # Homebrew
 brew-install:
-	brew install autojump
-	brew install grep
-	brew install git
-	brew install neovim
-	brew install pyenv
-	brew install rbenv
-	brew install vim
-	brew install --cask kitty
-	brew tap koekeishiya/formulae
-	brew install skhd
-	brew install yabai
-	brew tap FelixKratz/formulae
-	brew install sketchybar
+	brew install autojump || true
+	brew install grep || true
+	brew install git || true
+	brew install neovim || true
+	brew install pyenv || true
+	brew install rbenv || true
+	brew install vim || true
+	brew install --cask kitty || true
+	brew tap koekeishiya/formulae || true
+	brew install skhd || true
+	brew install yabai || true
+	brew tap FelixKratz/formulae || true
+	brew install sketchybar || true
 	# zsh-autosuggestions plugin
 	@if [ ! -d "$${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions" ]; then \
 		git clone https://github.com/zsh-users/zsh-autosuggestions $${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions; \
