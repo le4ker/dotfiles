@@ -1,0 +1,24 @@
+{
+  "keyMappings": "map h previousTab\nmap l nextTab\nmap [ goBack\nmap ] goForward\nmap <c-d> scrollPageDown\nmap <c-u> scrollPageUp\nmap <c-f> scrollFullPageDown\nmap <c-b> scrollFullPageUp\nmap u restoreTab\nmap x removeTab\nmap b createTab",
+  "linkHintCharacters": "asdfghjkl",
+  "scrollStepSize": 150,
+  "grabBackFocus": true,
+  "searchEngines": "",
+  "settingsVersion": "2.3.1",
+  "newTabDestination": "browserNewTabPage",
+  "openVomnibarOnNewTabPage": false,
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https?://docs.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://panther-labs.atlassian.net/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://keyboard-test.space/*"
+    }
+  ]
+}
