@@ -29,8 +29,8 @@ setopt CORRECT
 
 alias ssh="kitten ssh"
 
-source ~/.env-secrets
-source ~/.panther-aliases
+[ -f ~/.env-secrets ] && source ~/.env-secrets
+[ -f ~/.panther-aliases ] && source ~/.panther-aliases
 export PATH="$HOME/.local/bin:$PATH"
 
 # Pyenv variables

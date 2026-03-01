@@ -2,7 +2,8 @@
 
 # Main targets
 install: brew-install link services-start
-	uninstall: services-stop unlink
+
+uninstall: services-stop unlink
 
 update: brew-update
 	@echo "Update complete"

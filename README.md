@@ -56,14 +56,11 @@ make uninstall       # Stop services and remove symlinks
 
 ### Window Management
 
-| Shortcut                | Action             |
-| ----------------------- | ------------------ |
-| `shift + alt + h/j/k/l` | Swap window        |
-| `ctrl + alt + h/j/k/l`  | Warp/move window   |
-| `shift + alt + space`   | Toggle float       |
-| `shift + alt + f`       | Toggle fullscreen  |
-| `shift + alt + r`       | Rotate layout      |
-| `shift + alt + x/y`     | Mirror on x/y axis |
+| Shortcut            | Action             |
+| ------------------- | ------------------ |
+| `shift + alt + f`   | Toggle fullscreen  |
+| `shift + alt + r`   | Rotate layout      |
+| `shift + alt + x/y` | Mirror on x/y axis |
 
 ## Requirements
 
