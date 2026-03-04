@@ -8,6 +8,7 @@
 !git/
 !git/config
 !git/config-panther
+!git/allowed_signers
 !kitty/
 !kitty/**
 !skhd/
