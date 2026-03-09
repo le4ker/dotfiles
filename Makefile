@@ -63,9 +63,11 @@ services-stop:
 	brew services stop sketchybar
 
 restart:
-	skhd --restart-service
-	yabai --restart-service
-	sketchybar --reload
+	skhd --stop-service || true
+	skhd --start-service
+	yabai --stop-service || true
+	yabai --start-service
+	brew services restart sketchybar
 
 # Help
 help:
