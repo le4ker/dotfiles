@@ -3,7 +3,7 @@
 PLUGIN_DIR="$CONFIG_DIR/plugins"
 
 bar=(
-    height=30
+    height=32
     padding_left=10
     padding_right=0
     color=0xff2d353b
@@ -20,6 +20,7 @@ default=(
 )
 
 clock=(
+    update_freq=30
     script="$PLUGIN_DIR/clock.sh"
 )
 
@@ -47,7 +48,7 @@ input=(
 )
 
 airpods=(
-    update_freq=5
+    update_freq=120
     script="$PLUGIN_DIR/airpods.sh"
 )
 
