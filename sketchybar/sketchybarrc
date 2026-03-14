@@ -40,6 +40,7 @@ wifi=(
 )
 
 focus=(
+    update_freq=2
     script="$PLUGIN_DIR/focus.sh"
 )
 
@@ -69,7 +70,8 @@ sketchybar --bar "${bar[@]}" \
     --add item airpods right \
     --set airpods "${airpods[@]}" \
     --add item focus right \
-    --set focus "${focus[@]}"
+    --set focus "${focus[@]}" \
+    --subscribe focus system_dnd
 
 SPACE_ICONS=("I" "II" "III" "IV" "V" )
 
