@@ -39,9 +39,6 @@ link:
 	@[ -f ~/.zshrc ] && mv ~/.zshrc ~/.zshrc.bak || true
 	ln -sf ~/.config/zsh/zshrc ~/.zshrc
 	ln -sf ~/.config/git/config ~/.gitconfig
-	mkdir -p ~/.config/kitty && ln -sf ~/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
-	mkdir -p ~/.config/yabai && ln -sf ~/.config/yabai/yabairc ~/.config/yabai/yabairc
-	mkdir -p ~/.config/skhd && ln -sf ~/.config/skhd/skhdrc ~/.config/skhd/skhdrc
 	@echo "Symlinks created"
 
 unlink:

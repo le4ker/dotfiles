@@ -1,4 +1,4 @@
-#\!/bin/sh
+#!/bin/sh
 
 STATUS=$(defaults read com.apple.controlcenter "NSStatusItem VisibleCC FocusModes" 2>/dev/null || echo "0")
 
