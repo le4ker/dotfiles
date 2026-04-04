@@ -1,5 +1,12 @@
 #!/bin/sh
 
+MUTED=$(osascript -e 'output muted of (get volume settings)')
+
+if [ "$MUTED" = "true" ]; then
+  sketchybar --set $NAME icon="󰖁" label="mute"
+  exit 0
+fi
+
 if [ "$SENDER" = "volume_change" ]; then
   VOLUME=$INFO
 else
