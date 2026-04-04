@@ -1,4 +1,4 @@
-.PHONY: install update link unlink restart brew-install brew-update services-start services-stop
+.PHONY: install uninstall update link unlink restart brew-install brew-update services-start services-stop help
 
 # Main targets
 install: brew-install link services-start
