@@ -16,8 +16,8 @@ fi
 SSID=$(networksetup -getairportnetwork "$WIFI_INTERFACE" 2>/dev/null | sed 's/Current Wi-Fi Network: //')
 
 if [ -z "$SSID" ] || echo "$SSID" | grep -qiE "(not associated|error|cannot|You are not)"; then
-  sketchybar --set "$NAME" icon="󰤨" label=""
+  sketchybar --set "$NAME" icon="󰤯" label=""
   exit 0
 fi
 
-sketchybar --set "$NAME" icon="󰤨" label=""
+sketchybar --set "$NAME" icon="󰤨" label="$SSID"
