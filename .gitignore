@@ -9,6 +9,7 @@
 !git/
 !git/config
 !git/config-panther
+!git/README.md
 !git/allowed_signers
 !kitty/
 !kitty/**
