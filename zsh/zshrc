@@ -40,3 +40,6 @@ eval "$(pyenv init - zsh)"
 
 # add Pulumi to the PATH
 export PATH=$PATH:/Users/panos/.pulumi/bin
+
+# mise (tool version manager) activation
+eval "$(mise activate zsh)"
