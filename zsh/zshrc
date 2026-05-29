@@ -42,4 +42,6 @@ eval "$(pyenv init - zsh)"
 export PATH=$PATH:/Users/panos/.pulumi/bin
 
 # mise (tool version manager) activation
-eval "$(mise activate zsh)"
+if [[ "$(hostname -s)" == "panther" ]]; then
+  eval "$(mise activate zsh)"
+fi
