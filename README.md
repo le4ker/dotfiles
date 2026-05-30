@@ -15,6 +15,7 @@ Personal macOS configuration files for a keyboard-driven development environment
 
 | Tool                                                                                       | Description                                                       |
 | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| [caffeine](https://intelliscapesolutions.com/apps/caffeine)                                | Prevents macOS from sleeping                                      |
 | [git](https://git-scm.com)                                                                 | Version control with modern defaults                              |
 | [kitty](https://sw.kovidgoyal.net/kitty/)                                                  | GPU-accelerated terminal emulator                                 |
 | [neovim](https://neovim.io)                                                                | Configured via [NvMegaChad](https://github.com/le4ker/NvMegaChad) |

@@ -23,6 +23,7 @@ brew-install:
 	brew install yabai || true
 	brew tap FelixKratz/formulae || true
 	brew install sketchybar || true
+	brew install --cask caffeine || true
 	# zsh-autosuggestions plugin
 	@if [ ! -d "$${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions" ]; then \
 		git clone https://github.com/zsh-users/zsh-autosuggestions $${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions; \
